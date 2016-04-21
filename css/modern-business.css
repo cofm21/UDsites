@@ -15,6 +15,10 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+img {
+	height:200%;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -71,6 +75,10 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
+}
+
+footer p {
+	text-align:center;
 }
 
 /* Responsive Styles */
