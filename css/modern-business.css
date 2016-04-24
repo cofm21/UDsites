@@ -81,6 +81,16 @@ footer p {
 	text-align:center;
 }
 
+.panel-body img {
+	float:left;
+	padding-right:3%;
+	height:5em;
+}
+
+.clear{
+	clear:both;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
