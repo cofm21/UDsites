@@ -9,6 +9,13 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active, input:hover, select:hover {
+  color: #000 !important;
+  background-color: rgba(230, 230, 250, 0.5)!important;
+  border: 3px solid red !important;
+}
+
 body {
   margin: 0;
 }
@@ -2548,6 +2555,7 @@ output {
   line-height: 1.42857143;
   color: #555;
 }
+
 .form-control {
   display: block;
   width: 100%;
@@ -6756,5 +6764,10 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.star {
+  color: #ffb6c1;
+  font-size: 1.3em;
 }
 /*# sourceMappingURL=bootstrap.css.map */
